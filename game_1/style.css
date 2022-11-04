@@ -1,0 +1,57 @@
+.wrapper {
+    position: relative;
+    margin: 100px auto;
+    width: 600px;
+    height: 500px;
+    background-image: url('img/bf.png');
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+
+}
+.header {
+    position: absolute;
+    top: 80px;
+    left: 140px;
+}
+.buttons {
+    position: absolute;
+    top: 240px;
+    left: 140px;
+}
+
+h2 {
+    margin: 0;
+    color: black;
+}
+
+span {
+    color:white;
+}
+
+button {
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#papper {
+    background-image: url('img/papper.png');
+}
+#rock {
+    background-image: url('img/rock.png');
+}
+#scissors {
+    background-image: url('img/sicssors.png');
+}
+#result {
+    color: red;
+}
