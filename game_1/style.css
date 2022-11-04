@@ -4,7 +4,7 @@
     width: 600px;
     height: 500px;
     background-image: url('img/bf.png');
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursive;
     font-size: 20px;
 
 }
@@ -54,5 +54,5 @@ button:hover {
     background-image: url('img/sicssors.png');
 }
 #result {
-    color: red;
+    color: rgb(131, 28, 28);
 }
